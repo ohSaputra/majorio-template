@@ -160,7 +160,7 @@ gulp.task('serve', ['scripts', 'styles'], () => {
   browserSync({
     notify: false,
     // Customize the Browsersync console logging prefix
-    logPrefix: 'WSK',
+    logPrefix: 'majorio',
     // Allow scroll syncing across breakpoints
     scrollElementMapping: ['main', '.mdl-layout'],
     // Run as an https by uncommenting 'https: true'
@@ -181,7 +181,7 @@ gulp.task('serve', ['scripts', 'styles'], () => {
 gulp.task('serve:dist', ['default'], () =>
   browserSync({
     notify: false,
-    logPrefix: 'WSK',
+    logPrefix: 'majorio',
     // Allow scroll syncing across breakpoints
     scrollElementMapping: ['main', '.mdl-layout'],
     // Run as an https by uncommenting 'https: true'
