@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [![Web Starter Kit](https://cloud.githubusercontent.com/assets/110953/11445049/f05512ba-9520-11e5-8fdb-8c8eb5f690d0.jpg)](https://github.com/google/web-starter-kit/releases/latest)
 
 ## Overview
@@ -75,3 +76,7 @@ Contributions, questions and comments are all welcome and encouraged. For code c
 
 Apache 2.0  
 Copyright 2015 Google Inc
+=======
+# majorio-template
+majorio template based on web starter kit by google
+>>>>>>> 723ccb0a2b38dd8c5947f7b31c71b5e03f6c0f73
