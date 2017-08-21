@@ -1,0 +1,17 @@
+/* 
+* _breadcrumb.scss
+* author: utomo hendra saputra
+* last edited: August 20, 2017
+*/
+
+.breadcrumb {
+
+    background: transparent;
+    font-size: 0.75rem;
+    color: $white-color;
+    width: 100%;
+
+    a {
+        display: block;
+    }
+}

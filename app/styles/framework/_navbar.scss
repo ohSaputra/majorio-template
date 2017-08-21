@@ -1,0 +1,20 @@
+/* 
+* _navbar.scss
+* author: utomo hendra saputra
+* last edited: August 19, 2017
+*/
+
+.navbar {
+
+    z-index: 10;
+
+    h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 40px;
+
+        a {
+            color: inherit;
+        }
+    }
+}

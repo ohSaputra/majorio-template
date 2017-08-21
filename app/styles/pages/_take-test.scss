@@ -1,0 +1,51 @@
+/* 
+* _take-test.scss
+* author: utomo hendra saputra
+* last edited: August 20, 2017
+*/
+
+.body-form {
+    
+    background: $white-color;
+
+    .btn-group {
+
+        @media screen and (max-width: 374px) {
+            display: block;
+        }
+    }
+
+    p {
+        padding: 0 15px;
+
+        @media screen and (min-width: 1024px) {
+            max-width: 500px;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
+    }
+
+    .btn {
+
+        border-color: $bakrie-color;
+        color: $bakrie-color;
+        margin-bottom: .25rem;
+
+        &.active {
+
+            background-color: $bakrie-color;
+            color: $white-color;
+        }
+    }
+
+    .btn[type="submit"] {
+        
+        background-color: $bakrie-color;
+        color: $white-color;
+    }
+
+    .table-result {
+
+        padding: 1.1rem;
+    }
+}

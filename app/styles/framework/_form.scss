@@ -1,0 +1,36 @@
+/* 
+* _form.scss
+* author: utomo hendra saputra
+* last edited: August 19, 2017
+*/
+
+
+// form style
+
+form {
+    color: $white-color;
+
+    h6 {
+        color: $white-color;
+    }
+}
+.form-login {
+    max-width: 320px;
+}
+.form-control {
+    border-radius: .5rem;
+    font-size: 0.8rem;
+    padding: .7rem .9rem;
+}
+.btn{
+
+    background: transparent;
+    border-color: $white-color;
+
+    &:hover {
+
+        background-color: $white-color;
+        border-color: $bakrie-color;
+        color: $bakrie-color;
+    }
+}

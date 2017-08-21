@@ -1,0 +1,70 @@
+/* 
+* _header.scss
+* author: utomo hendra saputra
+* last edited: August 19, 2017
+*/
+
+header {
+    
+    // hamburger btn
+
+    .hamburger-btn,
+    #hamburger-icon {
+
+        margin-top: 9px;
+
+        .line {
+
+            width: 20px;
+            height: 1px;
+            background-color: #000;
+            display: block;
+            margin: 5px auto;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+
+            &:nth-child(2){
+
+               width: 15px;
+               margin-left: 5px;
+
+            }
+
+        }
+        
+        &:hover {
+            
+            cursor: pointer;
+
+        }
+
+        &.is-active {
+
+            .line:nth-child(2){
+
+                opacity: 0;
+
+            }
+            .line:nth-child(1){
+
+                -webkit-transform: translateY(6px) rotate(45deg);
+                -ms-transform: translateY(6px) rotate(45deg);
+                -o-transform: translateY(6px) rotate(45deg);
+                transform: translateY(6px) rotate(45deg);
+
+            }
+            .line:nth-child(3){
+
+                -webkit-transform: translateY(-6px) rotate(-45deg);
+                -ms-transform: translateY(-6px) rotate(-45deg);
+                -o-transform: translateY(-6px) rotate(-45deg);
+                transform: translateY(-6px) rotate(-45deg);
+
+            }
+
+        }
+    }
+
+
+}

@@ -1,0 +1,16 @@
+/* 
+* _section.scss
+* author: utomo hendra saputra
+* last edited: August 19, 2017
+*/
+
+
+section {
+    .user {
+        color: $bakrie-color;
+    }
+}
+
+section:nth-of-type(2n) {
+    background: $bakrie-color;
+}
