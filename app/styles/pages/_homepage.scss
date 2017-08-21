@@ -43,6 +43,7 @@
                 object-fit: cover;
                 object-position: 50% 50%;
                 width: 100%;
+                min-width: 80%;
 
                 @media screen and (min-width: 512px) {
                     max-width: 913px;
